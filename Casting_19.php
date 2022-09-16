@@ -22,8 +22,8 @@ echo $int_cast;
 
 echo "<br>";
 
-$x='abc';
-echo (int)$x;
+$x='abc'; 
+echo (int)$x; //not possible conversion
 
 echo "<br>";
 
