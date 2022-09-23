@@ -20,7 +20,7 @@ Introduced in PHP 7
 
  // Ternary	
 
- $user=false;
+ $user=true;
  $status = $user ? "logged in" : "logged out";
 
  echo '<br> false ? "logged in" : "logged out" = '.$status; 

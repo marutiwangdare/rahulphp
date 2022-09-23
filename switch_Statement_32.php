@@ -29,11 +29,12 @@ The default statement is used if no match is found.
 
 -->
 <?php
-$favcolor = "red";
+$favcolor = 'true';
 //$favcolor = "blue";
 //$favcolor = "green";
 
-switch ($favcolor) {
+switch ($favcolor) 
+{
   case "red":
     echo "Your favorite color is red!";
     break;
